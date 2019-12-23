@@ -76,4 +76,9 @@ body {
       position: absolute;
       top: 2rem;
       left: 78%;
+      background-color: #ff7961;
+  }
+
+  .secondary-content:hover{
+    background-color: #f44336;
   }

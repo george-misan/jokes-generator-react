@@ -12,7 +12,7 @@ const SavedJokes = ({ savedJokes, deleteJoke }) => (
               <p>{joke.value}</p>
               <button
               type="button"
-                  className=" secondary-content btn-floating btn-small waves-effect waves-light right"
+                  className="secondary-content btn-floating btn-small waves-effect waves-light right"
                   onClick={() => { deleteJoke(joke.id); }}
                 >
                   <i className="material-icons">delete</i>
