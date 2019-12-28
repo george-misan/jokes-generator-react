@@ -82,6 +82,7 @@ class Jokes extends Component {
     try {
       localStorage.setItem('jokes', JSON.stringify(jokesToSave));
       setSavedJokes(jokesToSave);
+
     } catch (error) {
       // notify user when error occur
       console.log(error);
