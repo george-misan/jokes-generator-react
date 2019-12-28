@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { formatDistanceToNow } from 'date-fns'
 
-// let now = new Date;
-// const when = formatDistanceToNow({joke}.created_at.toDate()), { addSuffix: true });
 
 
 const SavedJokes = ({ savedJokes, deleteJoke }) => (
@@ -16,7 +13,6 @@ const SavedJokes = ({ savedJokes, deleteJoke }) => (
           <li className="collection-item" key={joke.id}>
             <div>
               <p>{joke.value}</p>
-              {/* <p>{formatDistanceToNow({joke}.created_at.toDate()), { addSuffix: true }}</p> */}
               <button
               type="button"
                   className="secondary-content btn-floating btn-small waves-effect waves-light right"
